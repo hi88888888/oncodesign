@@ -1,0 +1,1937 @@
+@font-face {
+    font-family: Sochi2014-Light; /* Имя шрифта */
+    src: url(./fonts/ofont.ru_Sochi2014.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+    background: #F4F3F3;
+}
+
+/* Собственно сам слайдер */
+.slider{
+    /*height: 844px;*/
+    width: 390px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+    object-fit: cover;
+}
+
+.logo-main__size {
+    height: 275.9546203613281px;
+    width: 285.35504150390625px;
+    margin-left: 45.38px;
+    margin-top: 35px;
+}
+
+.OncoAssist-main__size {
+    margin-left: 18%;
+    margin-top: 15px;
+}
+
+.privet2-main__size{
+    height: 16px;
+    margin-left: 93px;
+}
+
+.prologenie-main__size{
+    margin-left: 27%;
+    margin-top: 21px;
+}
+
+.poluchaushih-main__size{
+    margin-left: 16%;
+}
+
+.prilogite_finger-main__size {
+    margin-left: 11.51483154296875px;
+    margin-top: 156.9761962890625px;
+}
+
+.finger-main__size{
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.dalshe-main__size{
+    margin-left: 57px;
+}
+
+
+/* Кнопки вперед и назад */
+/*.slider .prev, .slider .next {*/
+/*    cursor: pointer;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    top: 50%;*/
+/*    width: auto;*/
+/*    margin-top: -22px;*/
+/*    padding: 16px;*/
+/*    color: white;*/
+/*    font-weight: bold;*/
+/*    font-size: 18px;*/
+/*    transition: 0.6s ease;*/
+/*    border-radius: 0 3px 3px 0;*/
+/*}*/
+
+
+/*.slider .next {*/
+/*    right: 0;*/
+/*    border-radius: 3px 0 0 3px;*/
+/*}*/
+
+
+/* При наведении на кнопки добавляем фон кнопок */
+
+/*.slider .prev:hover,*/
+/*.slider .next:hover {*/
+/*    background-color: rgba(0, 0, 0, 0.8);*/
+/*}*/
+
+
+/* Заголовок слайда */
+.slideText {
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+    /* Выравнивание текста по горизонтали и по вертикали*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* Тень*/
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+}
+
+
+/* Кружочки */
+
+.slider-dots_a {
+    text-align: center;
+    margin-left: -16px;
+    margin-top: 50px;
+}
+
+.slider-dots {
+    text-align: center;
+    margin-left: -90px;
+    margin-top: 43px;
+}
+
+.instagram-stories__header333_3 {
+    height: 410px;
+    margin-top: 170px;
+}
+
+
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+
+
+/* Анимация слайдов */
+
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/*stories*/
+.instagram-stories__header1{
+    margin-left: -5px;
+    margin-top: -55px;
+}
+
+.instagram-stories__vector1{
+    margin-left: 1px;
+    margin-bottom: 50px;
+}
+.instagram-stories__vector2{
+    margin-left: 1px;
+    margin-bottom: 50px;
+}
+.instagram-stories__vector3{
+    margin-left: 1px;
+    margin-bottom: 50px;
+}
+.instagram-stories__vector4{
+    margin-left: 1px;
+    margin-bottom: 50px;
+}
+.instagram-stories__vector5{
+    margin-left: 1px;
+    margin-bottom: 50px;
+}
+.instagram-stories__vector6{
+    margin-left: 1px;
+    margin-bottom: 50px;
+}
+
+.instagram-stories__header2{
+    margin-top: -40px;
+}
+
+.miniLogo-instagram-stories__vector1{
+    margin-left: -10px;
+}
+
+.oncoassist-instagram-stories__vector2{
+    margin-left: 35px;
+}
+
+.close-instagram-stories__vector3{
+    margin-left: 34px;
+}
+
+.instagram-stories__header3{
+    height: 395px;
+}
+
+.formName-instagram-stories__vector1 {
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.formName-instagram-stories__vector2 {
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.text1_slide2-instagram-stories__vector3{
+    margin-top: 3px;
+    margin-left: 8px;
+}
+
+.text2_slide2-instagram-stories__vector4{
+    margin-top: 3px;
+    margin-left: 8px;
+}
+
+.text3_slide2-instagram-stories__vector5{
+    margin-top: 3px;
+    margin-left: 8px;
+}
+
+.text4_slide2-instagram-stories__vector6{
+    margin-top: 3px;
+    margin-left: 8px;
+}
+
+.check-instagram-stories__vector7{
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.soglasie-instagram-stories__vector8{
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.adata-instagram-stories__vector8{
+    margin-top: -10px;
+    margin-left: 40px;
+}
+
+.instagram-stories__header5__container{
+    margin-top: -40px;
+}
+
+.btn_question-instagram-stories__vector1{
+    margin-bottom: -80px;
+    margin-left: -3px;
+}
+
+.btn_dalee-instagram-stories__vector2{
+    margin-bottom: -80px;
+    margin-left: 203px;
+}
+
+.btn_question-instagram-stories__vector11{
+    margin-bottom: -80px;
+    margin-left: -3px;
+}
+
+.btn_dalee-instagram-stories__vector22{
+    margin-bottom: -80px;
+    margin-left: 203px;
+}
+
+.btn_question-instagram-stories__vector111{
+    margin-bottom: -85px;
+    margin-left: -3px;
+}
+
+.domoi-instagram-stories__vector111{
+    margin-bottom: -85px;
+    margin-left: -3px;
+    width: 50px;
+}
+.glavnaya-instagram-stories__vector111{
+    margin-bottom: -100px;
+    margin-left: -53px;
+    width: 50px;
+}
+
+.novosti-instagram-stories__vector111{
+    margin-bottom: -55px;
+    margin-left: 105px;
+    width: 70px;
+}
+.novostiNadpis-instagram-stories__vector111{
+    margin-bottom: -82px;
+    margin-left: -65px;
+    width: 50px;
+}
+
+.chat-instagram-stories__vector111{
+    margin-bottom: -35px;
+    margin-left: 215px;
+    width: 50px;
+}
+.chatNadpis-instagram-stories__vector111{
+    margin-bottom: -66px;
+    margin-left: -40px;
+    width: 22px;
+}
+
+.menu-instagram-stories__vector111{
+    margin-bottom: -10px;
+    margin-left: 10px;
+    width: 45px;
+}
+.menuNadpis-instagram-stories__vector111{
+    margin-bottom: -40px;
+    margin-left: -42px;
+    width: 30px;
+}
+
+
+.btn_dalee-instagram-stories__vector222{
+    margin-bottom: -85px;
+    margin-left: 203px;
+}
+
+/*парные классы*/
+.formName-instagram-stories__vector11{
+    position: relative;
+
+    margin-bottom: 1em;
+    margin-top: 2em;
+
+    margin-left: 1px;
+    z-index: 0;
+}
+/*парные классы*/
+.vidi-instagram-stories__vector22{
+    z-index: 1;
+    position: absolute;
+    left: 95px;
+    top: 33em;
+}
+
+
+/*парные классы*/
+.bigcheck-instagram-stories__vector3{
+    position: relative;
+    margin-bottom: 1em;
+    margin-left: 1px;
+    z-index: 0;
+}
+/*парные классы*/
+.radio1-instagram-stories__vector4{
+    z-index: 1;
+    position: absolute;
+    left: 27px;
+    top: 39em;
+}
+.pred-instagram-stories__vector5{
+    z-index: 2;
+    position: absolute;
+    left: 67px;
+    top: 39.3em;
+}
+.radio2-instagram-stories__vector6{
+    z-index: 3;
+    position: absolute;
+    left: 27px;
+    top: 42em;
+}
+.posle-instagram-stories__vector7{
+    z-index: 4;
+    position: absolute;
+    left: 67px;
+    top: 42.3em;
+}
+.radio3-instagram-stories__vector8{
+    z-index: 5;
+    position: absolute;
+    left: 27px;
+    top: 44.8em;
+}
+.himlin-instagram-stories__vector9{
+    z-index: 6;
+    position: absolute;
+    left: 67px;
+    top: 45.1em;
+}
+.dott-instagram-stories__vector10{
+    z-index: 7;
+    position: absolute;
+    left: 33.49px;
+    top: 42.45em;
+}
+
+.datapervogocicle-instagram-stories__vector1{
+    margin-top: 1px;
+}
+.segodnya-instagram-stories__vector2{
+    margin-top: 1px;
+}
+
+.instagram-stories__header33{
+    height: 580px;
+}
+
+.setka-instagram-stories__vector3{
+    position: relative;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    z-index: 0;
+}
+.calend-instagram-stories__vector4{
+    z-index: 1;
+    position: absolute;
+    left: 8px;
+    top: 16em;
+}
+.pn-instagram-stories__vector5 {
+    z-index: 1;
+    position: absolute;
+    left: 18px;
+    top: 14.5em;
+}
+.pn-instagram-stories__vector6 {
+    z-index: 1;
+    position: absolute;
+    left: 77px;
+    top: 14.5em;
+}
+.pn-instagram-stories__vector7 {
+    z-index: 1;
+    position: absolute;
+    left: 131px;
+    top: 14.5em;
+}
+.pn-instagram-stories__vector8 {
+    z-index: 1;
+    position: absolute;
+    left: 186px;
+    top: 14.5em;
+}
+.pn-instagram-stories__vector9 {
+    z-index: 1;
+    position: absolute;
+    left: 241px;
+    top: 14.5em;
+}
+.pn-instagram-stories__vector10 {
+    z-index: 1;
+    position: absolute;
+    left: 298px;
+    top: 14.4em;
+}
+.pn-instagram-stories__vector11 {
+    z-index: 1;
+    position: absolute;
+    left: 350px;
+    top: 14.5em;
+}
+
+.instagram-stories__header55__container{
+    margin-top: 90px;
+}
+
+.instagram-stories__header555__container_1{
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.instagram-stories__header333{
+    height: 480px;
+    margin-top: 100px;
+}
+.skolkociklov-instagram-stories__vector1{
+    margin-top: 300px;
+    margin-left: 1px ;
+}
+.systerap-instagram-stories__vector2{
+    /*margin-top: 350px;*/
+    margin-left: 1px ;
+}
+
+/*парные классы*/
+.formName-instagram-stories__vector111{
+    position: relative;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 1px;
+    z-index: 0;
+}
+/*парные классы-не используется*/
+.vidi-instagram-stories__vector222{
+    z-index: 1;
+    position: absolute;
+    left: 95px;
+    top: 33em;
+}
+
+.thvethda-instagram-stories__vector3{
+    z-index: 2;
+    position: absolute;
+    margin-top: 6em;
+    margin-left: -368px;
+}
+
+.ciclesysterap-instagram-stories__vector4 {
+    z-index: 3;
+    position: absolute;
+    margin-top: 6em;
+    margin-left: -350px;
+}
+.ciphri-instagram-stories__vector5{
+    z-index: 4;
+    position: absolute;
+    margin-top: 9em;
+    margin-left: -350px;
+}
+
+.instagram-stories__header3333 {
+    height: 480px;
+    margin-top: 100px;
+}
+
+.instagram-stories__header33333 {
+    height: 425px;
+    margin-top: 3px;
+    margin-left: -9px;
+}
+
+.instagram-stories__header33333_1 {
+    height: 380px;
+    margin-top: 200px;
+    margin-left: -1px;
+}
+
+.kontra-instagram-stories__vector1{
+    margin-top: 250px;
+}
+
+.formName1-instagram-stories__vector111{
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.nethnau-instagram-stories__vector6{
+    margin-top: 40px;
+    margin-left: 115px;
+}
+
+.kCiklovSisTerap-instagram-stories__vector2{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.thvethda-instagram-stories__vector3{
+    margin-top: 10px;
+    margin-left: -310px;
+}
+
+.kolvoCicklovNethnau-instagram-stories__vector4{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.nethnau-instagram-stories__vector7{
+    /*margin-top: 10px;*/
+    margin-left: -81px;
+}
+
+.VectorLong-stories__vector1{
+    margin-top: 10px;
+    margin-left: 2px;
+    height: 2px;
+    width: 380px;
+}
+
+.oncoassist-instagram-stories__vector22{
+    margin-left: 70px;
+    margin-bottom: 40px;
+    height: 40px;
+    width: 170px;
+}
+
+.miniLogo-instagram-stories__vector11{
+    margin-left: -5px;
+    margin-bottom: 45px;
+}
+
+.obnovit-instagram-stories__vector11{
+    margin-left: -320px;
+    margin-bottom: 45px;
+    width: 30px;
+}
+
+.close-instagram-stories__vector33{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.find-instagram-stories__vector33_33{
+    margin-left: 65px;
+    margin-bottom: 47px;
+    width: 35px;
+}
+
+.rect-instagram-stories__vector1,
+.rect-instagram-stories__vector2,
+.rect-instagram-stories__vector3,
+.rect-instagram-stories__vector4{
+    width: 185px;
+    height: 1087%;
+    border-radius: 5px;
+    background: rgb(254,254,254);
+    background: linear-gradient(90deg, rgba(254,254,254,1) 0%, rgba(200,161,241,1) 8%, rgba(186,118,241,1) 100%);
+    opacity: 0.9;
+}
+
+.instagram-stories__header5_55{
+    margin-top: 235px;
+}
+
+.instagram-stories__header1_1 {
+    margin-left: -5px;
+    margin-top: -11px;
+}
+
+.rect-instagram-stories__vector1{
+    position: relative;
+    margin-left: 1px;
+    z-index: 0;
+}
+.calendarrr-stories__vector1{
+    z-index: 1;
+    position: absolute;
+    left: 55px;
+    top: 7em;
+    margin-bottom: 5em;
+    width: 100px;
+}
+
+.rect-instagram-stories__vector2{
+    position: relative;
+    margin-left: 1px;
+    z-index: 0;
+}
+.pobochkaText-instagram-stories__vector2{
+    z-index: 1;
+    position: absolute;
+    left: 240px;
+    top: 21em;
+    margin-bottom: 5em;
+    width: 100px;
+}
+
+.rect-instagram-stories__vector3{
+    position: relative;
+    margin-left: 1px;
+    z-index: 0;
+}
+.pomoschnik-instagram-stories__vector3{
+    z-index: 1;
+    position: absolute;
+    left: 40px;
+    top: 43em;
+    margin-bottom: 5em;
+    width: 100px;
+}
+
+.rect-instagram-stories__vector4{
+    position: relative;
+    margin-left: 1px;
+    z-index: 0;
+}
+.kartaPreparatov-instagram-stories__vector4{
+    z-index: 1;
+    position: absolute;
+    left: 240px;
+    top: 42em;
+    margin-bottom: 5em;
+    width: 100px;
+}
+
+
+
+
+/*модальное окно*/
+
+#myBtn {
+    /*border: none;*/
+    width: 50px;
+    display: block;
+    margin-left: 300px;
+}
+/* Модальный (фон) */
+.modal {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    left: 43%;
+    top: 230px;
+    width: 205px; /* Полная ширина */
+    height: 488px; /* Полная высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: #f1f1f1; /* Цвет запасной вариант */
+    border: 2px solid #322E3C;
+    border-radius: 10px;
+    background-color: rgba(217, 197, 250,1); /* Черный с непрозрачностью */
+}
+/* Модальное содержание/коробка */
+.modal-content {
+    margin-left: 15px;
+    margin-top: -20px;
+    padding: 20px;
+    border: 0 solid #888;
+    width: 90%; /* Может быть больше или меньше, в зависимости от размера экрана */
+}
+/* Кнопка закрытия */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*размеры кнопки закрыть главного меню приложения*/
+.closeee-instagram-stories__vector1{
+    width: 20px;
+    margin-left: 100%;
+}
+
+.closeee-instagram-stories__vector1_1{
+    width: 20px;
+    /*margin-left: 100%;*/
+}
+
+.backP-instagram-stories__vector1_1{
+    width: 20px;
+    margin-left: -330px;
+    margin-top: 11px;
+}
+
+.pomoschnik-instagram-stories__vector1_1_1{
+    width: 20px;
+    margin-left: 10px;
+}
+
+/*классы модального заголовка*/
+.api-t1__telephone{
+    margin-top: 50px;
+    margin-left: 60px;
+    /*text-transform: uppercase;*/
+}
+.api-t1__telephone::first-letter {
+    text-transform: uppercase;
+}
+.api-t2__profile{
+    margin-top: -20px;
+    margin-left: 60px;
+    text-decoration: underline;
+    /*text-transform: uppercase;*/
+}
+.api-t2__profile::first-letter {
+    text-transform: uppercase;
+}
+.api-t3__photo{
+    margin-top: -105px;
+    margin-left: -38px;
+}
+
+.profile-instagram-stories__vector1{
+    width: 100px;
+    margin-top: -5px;
+}
+
+.line-menu1{
+    margin-top: 1px;
+    margin-left: -38px;
+}
+/*размеры линии главного меню приложения*/
+.lineMenu1-instagram-stories__vector1{
+    height: 3px;
+    width: 203px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*пункты главного меню*/
+.menu-item1{
+    margin-left: -72px;
+    margin-top: -10px;
+}
+.circleMenu-instagram-stories__vector1{
+    width: 20px;
+}
+.calendarMenu-instagram-stories__vector2{
+    width: 95px;
+    margin-left: -1px;
+}
+.menu-item2{
+    margin-left: -72px;
+    margin-top: 0px;
+}
+.pobochnieEffectiMenu-instagram-stories__vector2{
+    width: 150px;
+    margin-left: -2px;
+}
+.menu-item3{
+    margin-left: -72px;
+    margin-top: 0px;
+}
+.kartaPreparatov2-instagram-stories__vector3{
+    width: 140px;
+    margin-left: -1px;
+}
+.menu-item4{
+    margin-left: -72px;
+    margin-top: 0px;
+}
+.pomochnik1-instagram-stories__vector4{
+    width: 90px;
+    margin-left: -1px;
+}
+.menu-item5{
+    margin-left: -72px;
+    margin-top: 0px;
+}
+.schemaHimioterapii-instagram-stories__vector5{
+    width: 120px;
+    margin-left: -1px;
+    margin-bottom: -11px;
+}
+.menu-item6{
+    margin-left: -72px;
+    margin-top: 10px;
+}
+.proitiOpros-instagram-stories__vector6{
+    width: 145px;
+    margin-left: -2px;
+    margin-bottom: -11px;
+}
+.menu-item7{
+    margin-left: -72px;
+    margin-top: 0px;
+}
+.esliUvas-instagram-stories__vector7{
+    width: 130px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.menu-item8{
+    margin-left: -72px;
+    margin-top: 0px;
+}
+.thema11-instagram-stories__vector8{
+    width: 38px;
+    margin-left: -1px;
+    margin-bottom: 3px;
+}
+.thema111-instagram-stories__vector8_1{
+    width: 22px;
+    margin-left: -40px;
+    margin-bottom: -2.5px;
+}
+.thema111-instagram-stories__vector8_2{
+    width: 22px;
+    margin-left: 80px;
+}
+
+.menu-item9{
+    margin-left: -72px;
+    margin-top: 0px;
+}
+.animation1-instagram-stories__vector9{
+    width: 78px;
+    margin-left: -1px;
+    margin-bottom: 1px;
+}
+.thema111-instagram-stories__vector9_1{
+    width: 22px;
+    margin-left: -40px;
+    margin-bottom: -2.5px;
+}
+.thema111-instagram-stories__vector9_2{
+    width: 22px;
+    margin-left: 40px;
+}
+
+.menu-item10{
+    margin-left: -72px;
+    margin-top: 1px;
+}
+.settings1-instagram-stories__vector10{
+    width: 80px;
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+
+.line-menu2{
+    margin-top: -16px;
+    margin-left: -38px;
+}
+/*размеры линии главного меню приложения*/
+.lineMenu1-instagram-stories__vector2{
+    height: 2px;
+    width: 203px;
+}
+
+.menu-item11{
+    margin-left: -10px;
+    margin-top: -15px;
+}
+.version1-instagram-stories__vector11{
+    width: 70px;
+    color: #322E3C;
+    opacity: 0.58;
+}
+
+
+/*календарь*/
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');*/
+
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*body {*/
+/*    margin: 0;*/
+/*    background-image: linear-gradient(#33383d, #1d1e21);*/
+/*    background-repeat: no-repeat;*/
+/*    min-height: 100vh;*/
+/*    display: grid;*/
+/*    place-content: center;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*}*/
+
+/*.calander_wrapper {*/
+/*    border: 1px outset #fff1;*/
+/*    width: 450px;*/
+/*    border-radius: 20px;*/
+/*    box-shadow:*/
+/*            2px 2px 6px #0005,*/
+/*            -2px -2px 6px #fff1,*/
+/*            5px 5px 15px #0006;*/
+/*}*/
+
+/*.calander_wrapper .header {*/
+/*    border-bottom: 1px inset #00000054;*/
+/*    font-size: 14px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    padding: 25px 15px;*/
+/*}*/
+
+/*.calander_wrapper .header .month_name {*/
+/*    color: #fff8;*/
+/*}*/
+
+/*.calander_wrapper .header button {*/
+/*    background: transparent;*/
+/*    border: 1px solid transparent;*/
+/*    outline: none;*/
+/*    width: 32px;*/
+/*    height: 32px;*/
+/*    border-radius: 50%;*/
+/*    color: #fff6;*/
+/*    display: grid;*/
+/*    place-content: center;*/
+/*    background-image: radial-gradient(#373c41, #1d1f22);*/
+/*    cursor: pointer;*/
+/*    box-shadow: 0 0 3px #fff2,*/
+/*    2px 2px 6px #0006,*/
+/*    -2px -2px 6px #fff2;*/
+/*    transition: 0.3s ease-in-out;*/
+/*}*/
+
+/*.calander_wrapper .header button:active,*/
+/*.calander_wrapper .header button:hover {*/
+/*    background-image: radial-gradient(#ff6a00, #b21200);*/
+/*    border-color: #ff9c4ba9;*/
+/*    color: #fff;*/
+/*}*/
+
+
+/*.calander_wrapper .header button:active {*/
+/*    box-shadow: inset 2px 2px 6px #0000004a,*/
+/*    inset -2px -2px 6px #ffffff3b;*/
+/*}*/
+
+/*.calander_wrapper .body {*/
+/*    padding: 15px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.calander_wrapper .body table {*/
+/*    width: 100%;*/
+
+/*}*/
+
+/*.calander_wrapper .body table th {*/
+/*    font-weight: 400;*/
+/*    color: #fff8;*/
+/*}*/
+
+/*.calander_wrapper .body table th,*/
+/*.calander_wrapper .body table td {*/
+/*    padding: 25px 10px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.calander_wrapper .body table td {*/
+/*    color: #fff4;*/
+/*    cursor: pointer;*/
+/*    transition: 0.3s;*/
+/*}*/
+
+/*.calander_wrapper .body table td.active {*/
+/*    color: #fff;*/
+/*}*/
+
+/*.calander_wrapper .body table td:hover {*/
+/*    color: #fff;*/
+/*}*/
+
+/*.calander_wrapper .body .heilighter {*/
+/*    display: inline-block;*/
+/*    position: absolute;*/
+/*    top: 43%;*/
+/*    left: 19%;*/
+/*    background-color: transparent;*/
+/*    box-shadow: inset 3px 3px 8px #0006,*/
+/*    inset -3px -3px 8px #fff2;*/
+/*    width: 284px;*/
+/*    height: 50px;*/
+/*    border-radius: 40px;*/
+/*    backdrop-filter: brightness(1.1);*/
+/*    z-index: -1;*/
+/*}*/
+
+/*.calander_wrapper .body .heilighter::before,*/
+/*.calander_wrapper .body .heilighter::after {*/
+/*    content: '';*/
+/*    display: inline-block;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    background-image: linear-gradient(-45deg, #ff6a00e3, #c02110d8);*/
+/*    border: 1px solid #ff66007e;*/
+/*    box-shadow: inset 2px 2px 6px #0000004a,*/
+/*    inset -2px -2px 6px #ffffff3b,*/
+/*    0 0 10px #ff6a00;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    border-radius: 50%;*/
+/*}*/
+
+/*.calander_wrapper .body .heilighter::after {*/
+/*    left: unset;*/
+/*    right: 0;*/
+/*}*/
+
+
+
+/**/
+.instagram-stories__calendarMain_2_1_2{
+
+}
+.days-of-week-container,
+.calendar-container {
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    grid-row-gap: 5vh;
+    text-align: right;
+    font: 14px Arial;
+    background-color: #ffffff;
+}
+.c-c22{
+    border-radius: 50%;
+    background: linear-gradient(145deg, #e4dbc1, #ffffe5);
+    box-shadow:  20px 20px 60px #d7cfb6,
+    -20px -20px 60px #fffff6;
+}
+.c-c__1{
+    border-radius: 50%;
+    background: linear-gradient(145deg, #e4dbc1, #ffffe5);
+    box-shadow:  20px 20px 60px #d7cfb6,
+    -20px -20px 60px #fffff6;
+}
+.calendar-container div:hover {
+    color: #6B5671;
+    cursor: pointer;
+}
+.calendar-container div:first-child {
+    grid-column: 5;
+    border-radius: 50%;
+}
+.calendar-container div:hover {
+    color: #6B5671;
+    cursor: pointer;
+}
+/**/
+.instagram-stories__calendarMain_2_2{
+    display: grid;
+    grid-template-columns: repeat(2, 180px);
+    grid-gap: 1vh;
+    margin-top: 380px;
+    margin-bottom: -185px;
+    margin-left: -25px;
+    font-family: Sochi2014-Light;
+    font-size: 15px;
+}
+/*регулировка слова*/
+.instagram-stories__calendarMain_2_2_1,
+.instagram-stories__calendarMain_2_2_2,
+.instagram-stories__calendarMain_2_2_3,
+.instagram-stories__calendarMain_2_2_4,
+.instagram-stories__calendarMain_2_2_5,
+.instagram-stories__calendarMain_2_2_6{
+    text-align: right;
+    margin-top: -30px;
+    margin-left: 10px;
+
+}
+/*рамки информации*/
+.Himiya-instagram-stories__calendarMain_2_2_1,
+.DenSdachiAnalithov-instagram-stories__calendarMain_2_2_2,
+.OperaciyaVipolnyaetsya-instagram-stories__calendarMain_2_2_3,
+.PobochnieEffecti-instagram-stories__calendarMain_2_2_4,
+.VibrannayaData-instagram-stories__calendarMain_2_2_5,
+.Premedicaciya-instagram-stories__calendarMain_2_2_6{
+    border: 4px solid #9D91B6;
+    height: 43px;
+}
+
+/*дополнительная корректировка*/
+.instagram-stories__calendarMain_2_2_3{
+    /*padding-left: 15px;*/
+}
+
+/**/
+.instagram-stories__calendarMain_2_1_1{
+    margin-left: 85px;
+    margin-top: 8px;
+}
+.dataCalendar-stories__vector1{
+    width: 200px;
+    margin-left: 0px;
+    margin-bottom: -5px;
+}
+.borderr-stories__vector2{
+    margin-left: -90px;
+    margin-top: -190px;
+    width: 387px;
+}
+
+ul#day li{
+    display:inline-block;
+    text-align: center;
+}
+#day, #day li {
+    margin: 3px;
+    padding: 0;
+    /*text-align: center;*/
+}
+#day{
+    margin-left: 1px;
+    margin-top: 1px;
+}
+.day1,.day2,.day3,.day4,.day5,.day6,.day7 {
+    /*margin-left: 1px;*/
+    text-align: center;
+    /*margin-bottom: -10px;*/
+}
+.delimeter-stories__vector3{
+    margin-left: 25px;
+    margin-top: -1px;
+    width: 2px;
+}
+
+
+
+
+/*состояние - Календарь - главной части приложения*/
+#calendar-id__btn1 {
+    display: block;
+}
+/* Модальное окно -Календарь- главной части приложения */
+.calendar-class {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    left: 0%;
+    top: 64px;
+    width: 390px; /* Полная ширина */
+    height: 670px; /* Полная высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: #f1f1f1; /* Цвет запасной вариант */
+    /*border: 2px solid #322E3C;*/
+    /*border-radius: 10px;*/
+    background-color: rgba(217, 197, 250,1); /* Черный с непрозрачностью */
+}
+/* Модальное содержание/коробка */
+.calendar-class-content {
+    margin-left: 15px;
+    margin-top: -20px;
+    padding: 20px;
+    border: 0 solid #888;
+    width: 70%; /* Может быть больше или меньше, в зависимости от размера экрана */
+}
+/* Кнопка закрытия */
+.close-calendar {
+    color: #aaa;
+    /*float: right;*/
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 315px;
+}
+.close-calendar:hover,
+.close-calendar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*сам календарь*/
+/*строка заголовка календаря*/
+.look-calendar {
+    width:350px;
+    height: 60px;
+    padding:8px;
+    margin-top: 30px;
+    margin-left: -32px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#calendar {
+    width: 100%;
+    line-height: 1.1em;
+    font-size: 18px;
+    text-align: center;
+    border-spacing:25px;
+    box-shadow:  -9px 9px 23px #9a9999,
+    9px -9px 23px #ffffff;
+    background: #f1f1f1;
+}
+
+/*3d эффект начало*/
+#calendar:active td{
+    transition: all 3.3s;
+    transform: translate(-50%,-50%) scale(.95);
+}
+/*3d эффект конец*/
+
+
+
+#calendar tr.dn td {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#calendar thead tr:last-child {
+    /*font-size: small;*/
+    color: #5F4C64;
+}
+#calendar thead tr:nth-child(1) td:nth-child(2) {
+    color: #323232;
+}
+#calendar thead tr:nth-child(1) td:nth-child(1):hover,
+#calendar thead tr:nth-child(1) td:nth-child(3):hover {
+    cursor: pointer;
+}
+
+/*тут можно менять все кружочки календарика*/
+#calendar tbody td {
+    color: #5F4C64;
+    background: #FDF3D6;
+    /*border: 0.5px solid #5F4C64;*/
+
+    border-radius: 50%;
+    background: linear-gradient(225deg, #ffff89, #dcd873);
+    box-shadow:  -41px 41px 83px #a3a156,
+    41px -41px 83px #ffffaa;
+}
+#calendar tbody td:nth-child(n+6),
+#calendar .holiday {
+    color: #e78c5c;
+}
+#calendar tbody td.today {
+    border-radius: 50%;
+    background: linear-gradient(225deg, #dcdbdb, #ffffff);
+    box-shadow:  -20px 20px 60px #cfcfcf,
+    20px -20px 60px #ffffff;
+}
+
+/**/
+/*3d кнопка первый слайд - приложите палец*/
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+.insta{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 50%;
+    top:80%;
+    transform: translate(-50%,-50%);
+    /*background: #f4f3f3;*/
+}
+button.finger{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%) scale(1);
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    /*background: rgb(228, 232, 236);*/
+    background: #f4f3f3;
+
+    /*то что было*/
+    /*background: linear-gradient(45deg, rgb(228, 232, 236) 0%, rgb(234 234 234) 100%);*/
+    /*box-shadow: -2px -7px 10px #f1f1f1, 4px 6px 10px #d4d7da;*/
+
+    /*то что стало*/
+    /*background: linear-gradient(225deg, #ffffff, #dcdbdb);*/
+    /*box-shadow:  -20px 20px 60px #cfcfcf,*/
+    /*20px -20px 60px #ffffff;*/
+
+    transition: all .3s;
+}
+button:active{
+    background:  rgb(218, 221, 224);
+    background: linear-gradient(45deg, rgb(218, 221, 224) 0%, rgb(241, 241, 241) 100%);
+    box-shadow:
+            -2px -7px 10px #d4d7da,
+            4px 6px 10px #f1f1f1,
+            inset -2px -7px 10px #f1f1f1,
+            inset 4px 6px 10px #d4d7da;
+    transition: all .3s;
+    transform: translate(-50%,-50%) scale(.95);
+}
+img.f-img{
+    width: 70px;
+}
+button img{
+    font-size: 40px;
+    background: linear-gradient(-45deg, gray 0%, lightgray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .3s;
+}
+button:active img{
+    transform: scale(.9);
+    transition: all .3s;
+}
+
+
+/*состояние - Побочные эффекты - главной части приложения*/
+#calendar-id__btn2 {
+    display: block;
+}
+/* Модальное окно -Побочные эффекты- главной части приложения */
+.calendar-class__pobochka {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    left: 1%;
+    top: 70px;
+    width: 392px; /* Полная ширина */
+    height: 662px; /* Полная высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: #f1f1f1; /* Цвет запасной вариант */
+    /*border: 2px solid #322E3C;*/
+    /*border-radius: 10px;*/
+    background-color: #f1f1f1 /* Черный с непрозрачностью */
+}
+/* Модальное содержание/коробка */
+.calendar-class-content__pobochka {
+    margin-left: 5px;
+    margin-top: -20px;
+    padding: 20px;
+    border: 0 solid #888;
+    width: 95%; /* Может быть больше или меньше, в зависимости от размера экрана */
+}
+/* Кнопка закрытия */
+.close-calendar__pobochka {
+    color: #aaa;
+    /*float: right;*/
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 315px;
+}
+.close-calendar__pobochka:hover,
+.close-calendar__pobochka:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+li.li-pobochka1, li.li-pobochka2, li.li-pobochka3 {
+    list-style-type: none;
+
+}
+.text-calendar__pobochka{
+    width: 70%;
+    margin-top: -52px;
+    /*margin-left: 20px;*/
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+i.fa{
+    margin-top: -35px;
+    margin-left: 200px;
+}
+i.fa-plus{
+    width: 120%;
+}
+/*i.fa-calendar__user{*/
+/*    margin-top: -35px;*/
+/*    margin-left: 250px;*/
+/*}*/
+li.li-pobochka1{
+
+}
+li.li-pobochka2{
+    width: 30%;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+li.li-pobochka3{
+    width: 30%;
+    margin-left: 70px;
+    margin-top: -19px;
+}
+
+.samSpravochnik-instagram-stories__vector1 {
+    margin-top: 20px;
+    margin-left: -10px;
+    width: 345px;
+    height: 200px;
+    border: 2px solid #6B5671;
+    border-radius: 5px;
+}
+.text-calendar__toshnota {
+    margin-left: 5px;
+    margin-top: -180px;
+    position: fixed;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.delimeterr-instagram-stories__vector2 {
+    width: 342px;
+    margin-top: -38%;
+    margin-left: -7px;
+    position: fixed;
+}
+
+.delimeterr-instagram-stories__vector3 {
+    width: 342px;
+    margin-top: -25%;
+    margin-left: -7px;
+    position: fixed;
+}
+
+.text-calendar__rv{
+    margin-left: 5px;
+    margin-top: -130px;
+    position: fixed;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.konsult-instagram-stories__vector4{
+    width: 342px;
+    margin-top: 85%;
+    margin-left: -7px;
+    position: fixed;
+}
+
+
+/*состояние - Помощник - главной части приложения*/
+#calendar-id__btn3 {
+    display: block;
+}
+/* Модальное окно -Помощник- главной части приложения */
+.calendar-class__pomoschnik {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    left: 1%;
+    top: 70px;
+    /*width: 380px; !* Полная ширина  ----------------*!*/
+    height: 655px; /* Полная высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: #f1f1f1; /* Цвет запасной вариант */
+    /*border: 2px solid #322E3C; !*   ----------------*!*/
+    /*border-radius: 10px; !*   ----------------*!*/
+    background-color: #f1f1f1 /* Черный с непрозiconChatChat-instagram-stories__vector2рачностью */
+}
+/* Модальное содержание/коробка */
+.calendar-class-content__pomoschnik {
+    margin-left: 5px;
+    margin-top: -20px;
+    padding: 20px;
+    border: 0 solid #888;
+    width: 95%; /* Может быть больше или меньше, в зависимости от размера экрана */
+}
+/* Кнопка закрытия */
+.close-calendar__pomoschnik {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    /*margin-left: 315px;*/
+}
+.close-calendar__pomoschnik:hover,
+.close-calendar__pomoschnik:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/**/
+.backPomoschnik-instagram-stories__vector1 {
+    margin-left: -40px;
+    /*margin-top: -40px;*/
+    /*!*position: fixed;*! - если не убрать не будет работать кнопка заркытие */
+    /*position: fixed;*/
+    width: auto;
+    height: 400px;
+}
+
+.iconChatChat-instagram-stories__vector2 {
+    margin-left: -15px;
+    width: 50px;
+}
+
+.tvoiPomoschnik-instagram-stories__vector3 {
+    margin-left: 30px;
+    width: 241px;
+}
+.privet-pomoschnic{
+    margin-top: -40px;
+    margin-left: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.privetChto-instagram-stories__vector4{
+    margin-top: 50px;
+    margin-left: -11px;
+    width: 241px;
+}
+
+.circlePrivetChto-instagram-stories__vector5{
+    margin-top: 1px;
+    margin-left: 30px;
+    width: 50px;
+}
+
+.privet-chto{
+    margin-top: -40px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #D9C5FA;
+}
+
+.delim-instagram-stories__vector6 {
+    margin-top: 30px;
+    margin-left: -30px;
+    width: 100%;
+    position: absolute;
+}
+
+.smilee1-instagram-stories__vector7{
+    margin-top: 46px;
+    margin-left: -20px;
+    width: 46px;
+    position: absolute;
+}
+
+.smilee2-instagram-stories__vector8 {
+    margin-top: 59px;
+    margin-left: -16px;
+    width: 38px;
+    position: absolute;
+}
+
+.vvediteSoobschenie-instagram-stories__vector9{
+    width: 270px;
+    height: auto;
+    position: absolute;
+    left: 16.27%;
+    right: 13.2%;
+    top: 91.8%;
+    bottom: 3.11%;
+}
+
+.otpravit-instagram-stories__vector10{
+    margin-top: 49px;
+    margin-left: 315px;
+    width: 38px;
+    position: absolute;
+}
+
+.vvediteSoobschenie2-instagram-stories__vector11 {
+    margin-top: 61px;
+    margin-left: 65px;
+    width: 40%;
+    position: absolute;
+}
+
+
+/*состояние - Карта препаратов - главной части приложения*/
+#calendar-id__btn4 {
+    display: block;
+}
+/* Модальное окно -Карта препаратов- главной части приложения */
+.calendar-class__kartaPreparatov {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 1%;
+    top: 70px;
+    width: 390px; /* Полная ширина  ----------------*/
+    height: 655px; /* Полная высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: #f1f1f1; /* Цвет запасной вариант */
+    /*border: 2px solid #322E3C; !*   ----------------*!*/
+    /*border-radius: 10px; !*   ----------------*!*/
+    background-color: #f1f1f1 /* Черный с непрозiconChatChat-instagram-stories__vector2рачностью */
+}
+/* Модальное содержание/коробка */
+.calendar-class-content__kartaPreparatov {
+    margin-left: 5px;
+    margin-top: -20px;
+    padding: 20px;
+    border: 0 solid #888;
+    width: 95%;
+}
+/* Кнопка закрытия */
+.close-calendar__kartaPreparatov {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close-calendar__kartaPreparatov:hover,
+.close-calendar__kartaPreparatov:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.kartaPreparatov-instagram-stories__vector1_1{
+    width: 20px;
+    margin-left: -330px;
+    margin-top: 11px;
+}
+
+.text-calendar__kartaPreparatov {
+    /*width: 70%;*/
+    margin-top: 15px;
+    /* margin-left: 20px; */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.vvediteImyaPreparata-instagram-stories__vector1{
+    margin-top: 40px;
+    margin-left: -10px;
+    width: 350px;
+}
+
+.vvediteImyaPreparataText-instagram-stories__vector2{
+    margin-top: -39px;
+    margin-left: 25px;
+    width: 60%;
+    position: absolute;
+}
+
+.naitiButton-instagram-stories__vector3{
+    margin-top: 30px;
+    margin-left: 220px;
+    width: 120px;
+}
+
+.nadpisNayti-instagram-stories__vector4{
+    margin-top: -35px;
+    margin-left: 228px;
+    width: 65px;
+    position: absolute;
+}
+
+.find-instagram-stories__vector5{
+    margin-top: -42px;
+    margin-left: 299px;
+    width: 26px;
+    position: absolute;
+}
+
+.kartaPreparatovRamka-instagram-stories__vector6{
+    margin-top: 20px;
+    margin-left: -10px;
+    width: 345px;
+    height: 380px;
+    border: 2px solid #6B5671;
+    border-radius: 5px;
+}
+
+.delimeterr-instagram-stories__vector3__1{
+    width: 342px;
+    margin-top: -82%;
+    margin-left: -7px;
+    position: fixed;
+}
+
+.delimeterr-instagram-stories__vector3__2{
+    width: 342px;
+    margin-top: -64%;
+    margin-left: -7px;
+    position: fixed;
+    border: 0.1px solid black;
+}
+
+.delimeterr-instagram-stories__vector3__3{
+    width: 342px;
+    margin-top: -45%;
+    margin-left: -7px;
+    position: fixed;
+}
+
+.vagnoImg-instagram-stories__vector3__4{
+    width: 342px;
+    height: 60px;
+    margin-top: -30%;
+    margin-left: -7px;
+    position: fixed;
+}
+
+.vaggno-instagram-stories__vector3__5{
+    width: 142px;
+    margin-top: -27%;
+    margin-left: 97px;
+    position: fixed;
+}
+
+.vertDelimeter-instagram-stories__vector3__6{
+    width: 1px;
+    height: 265px;
+    margin-top: -98%;
+    margin-left: 160px;
+    position: fixed;
+}
+
+.NathvanieP-instagram-stories__vector3__7{
+    width: 122px;
+    margin-top: -93%;
+    margin-left: 15px;
+    position: fixed;
+}
+
+.OpisanieTable-instagram-stories__vector3__8{
+    width: 122px;
+    margin-top: -93%;
+    margin-left: 185px;
+    position: fixed;
+}
+
+.LekarstvoTable-instagram-stories__vector3__9{
+    width: 122px;
+    margin-top: -76%;
+    margin-left: 15px;
+    position: fixed;
+}
+
+.NathnachTable-instagram-stories__vector3__10{
+    width: 122px;
+    margin-top: -57%;
+    margin-left: 15px;
+    position: fixed;
+}
+
+.DozirovkaTable-instagram-stories__vector3__11{
+    width: 122px;
+    margin-top: -41%;
+    margin-left: 15px;
+    position: fixed;
+}
+
+.DvadcatMG-instagram-stories__vector3__12{
+    width: 52px;
+    margin-top: -40%;
+    margin-left: 220px;
+    position: fixed;
+}
+
+/*фон для сайта*/
+/*background-image: url(tl.png)*/
+
+/*3d кнопка главной части приложения - Календарь - - начало */
+/*.three-btn-main__1{*/
+/*    width: 130px;*/
+/*    height: 130px;*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    top:80%;*/
+/*    transform: translate(-50%,-50%);*/
+/*    !*background: #f4f3f3;*!*/
+/*}*/
+
+.three-btn-main__1 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 30%;
+    margin-top: -21%;
+    transform: translate(-25%,-25%);
+    /*background: #89b9ff;*/
+}
+
+/*button.three-btn__1{*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    top:50%;*/
+/*    transform: translate(-50%,-50%) scale(1);*/
+/*    border-style: none;*/
+/*    outline: none;*/
+/*    cursor: pointer;*/
+/*    border-radius: 50%;*/
+/*    background: #f4f3f3;*/
+/*    transition: all .3s;*/
+/*}*/
+
+/*button.three-btn__1 {*/
+/*    height: 32px;*/
+/*    position: absolute;*/
+/*    margin-left: 14px;*/
+/*    margin-top: -35px;*/
+/*    transform: translate(-50%, -50%) scale(1);*/
+/*    border-style: none;*/
+/*    outline: none;*/
+/*    cursor: pointer;*/
+/*    border-radius: 5%;*/
+/*    background: #f4f3f3;*/
+/*    transition: all .3s;*/
+/*}*/
+
+button.three-btn__1 {
+    height: 32px;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: -35px;
+    transform: translate(-50%, -50%) scale(1);
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5%;
+    /* background: #f4f3f3; */
+    transition: all .3s;
+
+    /*border-radius: 17px;*/
+    /*background: linear-gradient(225deg, #739cdc, #89b9ff);*/
+    /*box-shadow:  -5px 5px 10px #334562,*/
+    /*5px -5px 10px #cdffff;*/
+}
+
+button.three-btn__1:active{
+    background:  rgb(218, 221, 224);
+    background: linear-gradient(45deg, rgb(218, 221, 224) 0%, rgb(241, 241, 241) 100%);
+    box-shadow:
+            -2px -7px 10px #d4d7da,
+            4px 6px 10px #f1f1f1,
+            inset -2px -7px 10px #f1f1f1,
+            inset 4px 6px 10px #d4d7da;
+
+    transition: all .3s;
+    transform: translate(-50%,-50%) scale(.95);
+}
+
+
+
+/*img.f-img{*/
+/*    width: 70px;*/
+/*}*/
+button img{
+    font-size: 40px;
+    background: linear-gradient(-45deg, gray 0%, lightgray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .3s;
+}
+button:active img{
+    transform: scale(.9);
+    transition: all .3s;
+}
+/*3d кнопка главной части приложения - Календарь - - конец */

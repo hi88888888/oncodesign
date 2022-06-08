@@ -1,0 +1,960 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="slider">
+    <div class="item">
+        <img src="img/logo.png" alt="Первый слайд" class="logo-main__size">
+        <img src="img/OncoAssist.png" alt="Первый слайд" class="OncoAssist-main__size">
+        <img src="img/privet2.png" alt="Первый слайд" class="privet2-main__size">
+        <img src="img/prologenie.png" alt="Первый слайд" class="prologenie-main__size">
+        <img src="img/poluchaushih.png" alt="Первый слайд" class="poluchaushih-main__size">
+
+        <a class="next" onclick="plusSlide()">
+            <img src="img/prilogite_finger.png" alt="Первый слайд" class="prilogite_finger-main__size">
+        </a>
+<!--        тут код 3d кнопки - начало -->
+
+<!--        3d кнопка отпечаток пальца-->
+        <div class="insta">
+            <button class="finger">
+                <a class="next" onclick="plusSlide()">
+                    <img src="img/finger.png" alt="Первый слайд" class="finger-main__size f-img">
+                </a>
+            </button>
+        </div>
+<!--        тут код 3d кнопки - конец -->
+        <a class="next" onclick="plusSlide()"><img src="img/dalshe.png" alt="Первый слайд" class="dalshe-main__size"></a>
+
+        <div class="slider-dots_a">
+            <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+<!--    1-->
+    <div class="item">
+        <div class="instagram-stories__header1">
+            <img src="img/Vector.png" class="instagram-stories__vector1">
+            <img src="img/Vector.png" class="instagram-stories__vector2">
+            <img src="img/Vector.png" class="instagram-stories__vector3">
+            <img src="img/Vector.png" class="instagram-stories__vector4">
+            <img src="img/Vector.png" class="instagram-stories__vector5">
+            <img src="img/Vector.png" class="instagram-stories__vector6">
+        </div>
+        <div class="instagram-stories__header2">
+<!--            ТОЧКА ВХОДА-->
+            <a class="prev" onclick="minusSlide()"><img src="img/miniLogo.png" class="miniLogo-instagram-stories__vector1"></a>
+
+            <img src="img/OncoAssist.png" class="oncoassist-instagram-stories__vector2">
+            <img src="img/close.png" class="close-instagram-stories__vector3">
+        </div>
+<!--        блок под слайды-->
+        <div class="instagram-stories__header3">
+            <div class="instagram-stories__header3__container">
+
+            </div>
+        </div>
+<!--        блок под элементы управления-->
+        <div class="instagram-stories__header4">
+            <img src="img/formName.png" class="formName-instagram-stories__vector1">
+            <img src="img/formName.png" class="formName-instagram-stories__vector2">
+            <img src="img/text1_slide2.png" class="text1_slide2-instagram-stories__vector3">
+            <img src="img/text2_slide2.png" class="text2_slide2-instagram-stories__vector4">
+            <img src="img/text3_slide2.png" class="text3_slide2-instagram-stories__vector5">
+            <img src="img/text4_slide2.png" class="text4_slide2-instagram-stories__vector6">
+            <br>
+            <img src="img/check.png" class="check-instagram-stories__vector7">
+            <img src="img/soglasie.png" class="soglasie-instagram-stories__vector8">
+            <img src="img/aData.png" class="adata-instagram-stories__vector8">
+        </div>
+<!--        блок навигации-->
+        <div class="instagram-stories__header5">
+            <div class="instagram-stories__header5__container">
+                <img src="img/btn_question.png" class="btn_question-instagram-stories__vector1">
+                <a class="next" onclick="plusSlide()"><img src="img/btn_dalee.png" class="btn_dalee-instagram-stories__vector2"></a>
+
+            </div>
+        </div>
+        <div class="slider-dots ">
+            <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+<!--    //2-->
+    <div class="item">
+        <div class="instagram-stories__header1">
+            <img src="img/Vector.png" class="instagram-stories__vector1">
+            <img src="img/Vector.png" class="instagram-stories__vector2">
+            <img src="img/Vector.png" class="instagram-stories__vector3">
+            <img src="img/Vector.png" class="instagram-stories__vector4">
+            <img src="img/Vector.png" class="instagram-stories__vector5">
+            <img src="img/Vector.png" class="instagram-stories__vector6">
+        </div>
+        <div class="instagram-stories__header2">
+            <!--            ТОЧКА ВХОДА-->
+            <a class="prev" onclick="minusSlide()"><img src="img/miniLogo.png" class="miniLogo-instagram-stories__vector1"></a>
+
+            <img src="img/OncoAssist.png" class="oncoassist-instagram-stories__vector2">
+            <img src="img/close.png" class="close-instagram-stories__vector3">
+        </div>
+        <!--        блок под слайды-->
+        <div class="instagram-stories__header3">
+            <div class="instagram-stories__header3__container">
+
+            </div>
+        </div>
+<!--        основной контент-->
+
+        <!--        блок под элементы управления-->
+        <div class="instagram-stories__header4">
+            <img src="img/formName.png" class="formName-instagram-stories__vector11">
+            <img src="img/vidi.png" class="vidi-instagram-stories__vector22">
+
+            <img src="img/bigCheck.png" class="bigcheck-instagram-stories__vector3">
+            <img src="img/radio.png" class="radio1-instagram-stories__vector4">
+            <img src="img/pred.png" class="pred-instagram-stories__vector5">
+            <img src="img/radio.png" class="radio2-instagram-stories__vector6">
+            <img src="img/posle.png" class="posle-instagram-stories__vector7">
+            <img src="img/radio.png" class="radio3-instagram-stories__vector8">
+            <img src="img/himlin.png" class="himlin-instagram-stories__vector9">
+            <img src="img/dott.png" class="dott-instagram-stories__vector10">
+        </div>
+        <!--        блок навигации-->
+        <div class="instagram-stories__header5">
+            <div class="instagram-stories__header5__container">
+                <img src="img/btn_question.png" class="btn_question-instagram-stories__vector1">
+                <a class="next" onclick="plusSlide()"><img src="img/btn_dalee.png" class="btn_dalee-instagram-stories__vector2"></a>
+
+
+            </div>
+        </div>
+        <div class="slider-dots ">
+            <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+<!--    //3-->
+    <div class="item">
+            <div class="instagram-stories__header1">
+                <img src="img/Vector.png" class="instagram-stories__vector1">
+                <img src="img/Vector.png" class="instagram-stories__vector2">
+                <img src="img/Vector.png" class="instagram-stories__vector3">
+                <img src="img/Vector.png" class="instagram-stories__vector4">
+                <img src="img/Vector.png" class="instagram-stories__vector5">
+                <img src="img/Vector.png" class="instagram-stories__vector6">
+            </div>
+            <div class="instagram-stories__header2">
+                <!--            ТОЧКА ВХОДА-->
+                <a class="prev" onclick="minusSlide()"><img src="img/miniLogo.png" class="miniLogo-instagram-stories__vector1"></a>
+
+                <img src="img/OncoAssist.png" class="oncoassist-instagram-stories__vector2">
+                <img src="img/close.png" class="close-instagram-stories__vector3">
+            </div>
+            <!--        блок под слайды - тут не будет-->
+
+        <div class="instagram-stories__header33">
+            <img src="img/datapervogocicle.png" class="datapervogocicle-instagram-stories__vector1">
+            <img src="img/segodnya.png" class="segodnya-instagram-stories__vector2">
+            <img src="img/setka.png" class="setka-instagram-stories__vector3">
+            <img src="img/calend.png" class="calend-instagram-stories__vector4">
+            <img src="img/pn.png" class="pn-instagram-stories__vector5">
+            <img src="img/vt.png" class="pn-instagram-stories__vector6">
+            <img src="img/sr.png" class="pn-instagram-stories__vector7">
+            <img src="img/ch.png" class="pn-instagram-stories__vector8">
+            <img src="img/pt.png" class="pn-instagram-stories__vector9">
+            <img src="img/sb.png" class="pn-instagram-stories__vector10">
+            <img src="img/vs.png" class="pn-instagram-stories__vector11">
+        </div>
+
+            <!--        блок навигации-->
+            <div class="instagram-stories__header5">
+                <div class="instagram-stories__header55__container">
+                    <img src="img/btn_question.png" class="btn_question-instagram-stories__vector1">
+                    <a class="next" onclick="plusSlide()"><img src="img/btn_dalee.png" class="btn_dalee-instagram-stories__vector2"></a>
+
+
+                </div>
+            </div>
+    </div>
+
+    <!--    //4-->
+    <div class="item">
+        <div class="instagram-stories__header1">
+            <img src="img/Vector.png" class="instagram-stories__vector1">
+            <img src="img/Vector.png" class="instagram-stories__vector2">
+            <img src="img/Vector.png" class="instagram-stories__vector3">
+            <img src="img/Vector.png" class="instagram-stories__vector4">
+            <img src="img/Vector.png" class="instagram-stories__vector5">
+            <img src="img/Vector.png" class="instagram-stories__vector6">
+        </div>
+        <div class="instagram-stories__header2">
+            <!--            ТОЧКА ВХОДА-->
+            <a class="prev" onclick="minusSlide()"><img src="img/miniLogo.png" class="miniLogo-instagram-stories__vector1"></a>
+
+            <img src="img/OncoAssist.png" class="oncoassist-instagram-stories__vector2">
+            <img src="img/close.png" class="close-instagram-stories__vector3">
+        </div>
+        <!--        блок под слайды - тут не будет-->
+
+        <div class="instagram-stories__header333_3">
+            <img src="img/skolkociklov.png" class="skolkociklov-instagram-stories__vector1">
+            <img src="img/systerap.png" class="systerap-instagram-stories__vector2">
+            <img src="img/formName.png" class="formName-instagram-stories__vector111">
+            <img src="img/thvethda.png" class="thvethda-instagram-stories__vector3">
+            <img src="img/ciclesysterap.png" class="ciclesysterap-instagram-stories__vector4">
+            <img src="img/ciphri.png" class="ciphri-instagram-stories__vector5">
+            <img src="img/nethnau.png" class="nethnau-instagram-stories__vector6">
+        </div>
+
+        <!--        блок навигации-->
+        <div class="instagram-stories__header5">
+            <div class="instagram-stories__header55__container">
+                <img src="img/btn_question.png" class="btn_question-instagram-stories__vector1">
+                <a class="next" onclick="plusSlide()"><img src="img/btn_dalee.png" class="btn_dalee-instagram-stories__vector2"></a>
+            </div>
+        </div>
+        <div class="slider-dots ">
+            <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+<!--    // 5-->
+    <div class="item">
+        <div class="instagram-stories__header1">
+            <img src="img/Vector.png" class="instagram-stories__vector1">
+            <img src="img/Vector.png" class="instagram-stories__vector2">
+            <img src="img/Vector.png" class="instagram-stories__vector3">
+            <img src="img/Vector.png" class="instagram-stories__vector4">
+            <img src="img/Vector.png" class="instagram-stories__vector5">
+            <img src="img/Vector.png" class="instagram-stories__vector6">
+        </div>
+        <div class="instagram-stories__header2">
+            <!--            ТОЧКА ВХОДА-->
+            <a class="prev" onclick="minusSlide()"><img src="img/miniLogo.png" class="miniLogo-instagram-stories__vector1"></a>
+
+            <img src="img/OncoAssist.png" class="oncoassist-instagram-stories__vector2">
+            <img src="img/close.png" class="close-instagram-stories__vector3">
+        </div>
+
+<!--        блок который доработки заказчиком-->
+        <div class="instagram-stories__header333"></div>
+
+
+        <div class="instagram-stories__header5">
+            <div class="instagram-stories__header55__container">
+                <img src="img/btn_question.png" class="btn_question-instagram-stories__vector1">
+                <a class="next" onclick="plusSlide()"><img src="img/btn_dalee.png" class="btn_dalee-instagram-stories__vector2"></a>
+            </div>
+        </div>
+        <div class="slider-dots ">
+            <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+<!--    // 6-->
+    <div class="item">
+        <div class="instagram-stories__header1">
+            <img src="img/Vector.png" class="instagram-stories__vector1">
+            <img src="img/Vector.png" class="instagram-stories__vector2">
+            <img src="img/Vector.png" class="instagram-stories__vector3">
+            <img src="img/Vector.png" class="instagram-stories__vector4">
+            <img src="img/Vector.png" class="instagram-stories__vector5">
+            <img src="img/Vector.png" class="instagram-stories__vector6">
+        </div>
+        <div class="instagram-stories__header2">
+            <!--            ТОЧКА ВХОДА-->
+            <a class="prev" onclick="minusSlide()"><img src="img/miniLogo.png" class="miniLogo-instagram-stories__vector1"></a>
+
+            <img src="img/OncoAssist.png" class="oncoassist-instagram-stories__vector2">
+            <img src="img/close.png" class="close-instagram-stories__vector3">
+        </div>
+
+        <!--        блок который дорабтки заказчиком-->
+        <div class="instagram-stories__header33333_1">
+            <img src="img/kontra.png" class="kontra-instagram-stories__vector1">
+            <img src="img/formName.png" class="formName1-instagram-stories__vector111">
+            <img src="img/kCiklovSisTerap.png" class="kCiklovSisTerap-instagram-stories__vector2">
+            <img src="img/thvethda.png" class="thvethda-instagram-stories__vector3">
+            <img src="img/kolvoCicklovNethnau.png" class="kolvoCicklovNethnau-instagram-stories__vector4">
+            <img src="img/nethnau.png" class="nethnau-instagram-stories__vector7">
+        </div>
+
+
+        <div class="instagram-stories__header5">
+            <div class="instagram-stories__header55__container">
+                <img src="img/btn_question.png" class="btn_question-instagram-stories__vector11">
+                <a class="next" onclick="plusSlide()"><img src="img/btn_dalee.png" class="btn_dalee-instagram-stories__vector22"></a>
+            </div>
+        </div>
+        <div class="slider-dots ">
+            <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+
+<!--    <form action="#" class="popup">-->
+<!--        <input type="text">-->
+<!--        <input type="text">-->
+<!--        <input type="text">-->
+<!--    </form>-->
+<!--    <button class="open">Показать</button>-->
+    <!--    // 7 ОСНОВНАЯ ЧАСТЬ ПРИЛОЖЕНИЯ  -->
+    <div class="item">
+
+        <div class="instagram-stories__header2">
+            <table>
+                <colgroup></colgroup>
+                <tr>
+                    <td>
+<!--                        <a class="prev" onclick="minusSlide()"><img src="img/obnovit.png" class="obnovit-instagram-stories__vector11"></a>-->
+                        <span class="close-calendar"><img src="img/obnovit.png" class="obnovit-instagram-stories__vector11"></span>
+<!--                        <span class="close-calendar"><img src="img/obnovit.png" class="closeee-instagram-stories__vector1_1"></span>-->
+                    </td>
+                    <td><img src="img/OncoAssist.png" class="oncoassist-instagram-stories__vector22"></td>
+                    <td><img src="img/find.png" class="find-instagram-stories__vector33_33"></td>
+                </tr>
+            </table>
+            <div class="instagram-stories__header1">
+                <img src="img/VectorLong.png" class="VectorLong-stories__vector1">
+            </div>
+        </div>
+
+
+        <!--        блок который дорабтки заказчиком-->
+        <div class="instagram-stories__header33333">
+            <table width="100%"  border="0" cellpadding = "-1" cellspacing="0">
+<!--                <colgroup></colgroup>-->
+                <tr>
+                    <td width="94" height="30" class="td-instagram-vector__1">
+<!--                        вызов модального окна главной части приложения-->
+<!--                        3d ------------------------------------------------------------------------------->
+
+                        <div class="three-btn-main__1">
+                            <button class="three-btn__1">
+
+<!--                                    <img src="img/finger.png" alt="Первый слайд" class="f-img">-->
+
+                                        <img src="img/rect.png" class="rect-instagram-stories__vector1 " id="calendar-id__btn1">
+                                        <img src="img/calendarrr.png" class="calendarrr-stories__vector1">
+
+                            </button>
+                        </div>
+
+
+<!--                        <img src="img/rect.png" class="rect-instagram-stories__vector1 " id="calendar-id__btn1">-->
+<!--                        <img src="img/calendarrr.png" class="calendarrr-stories__vector1">-->
+<!--                        3d ------------------------------------------------------------------------------->
+                    </td>
+                    <td width="94" height="30">
+                        <img src="img/rect.png" class="rect-instagram-stories__vector2" id="calendar-id__btn2">
+                        <img src="img/pobochkaText.png" class="pobochkaText-instagram-stories__vector2">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="94" height="30">
+                        <img src="img/rect.png" class="rect-instagram-stories__vector3" id="calendar-id__btn3">
+                        <img src="img/pomoschnik.png" class="pomoschnik-instagram-stories__vector3">
+                    </td>
+                    <td width="94" height="30">
+                        <img src="img/rect.png" class="rect-instagram-stories__vector4" id="calendar-id__btn4">
+                        <img src="img/kartaPreparatov.png" class="kartaPreparatov-instagram-stories__vector4">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Модальное окно - состояние - Календарь - начало -->
+        <div id="calendar-id__modal1" class="calendar-class">
+            <!-- Модальное содержание -->
+            <div class="calendar-class-content">
+<!--                <span class="close-calendar"><img src="img/obnovit.png" class="closeee-instagram-stories__vector1_1"></span>-->
+
+<!--                сам календарь начало-->
+                <div class="look-calendar">
+                    <table id="calendar">
+                        <thead>
+                        <tr>
+                            <td><b>‹</b>
+                            <td colspan="5">
+                            <td><b>›</b>
+                        <tr class="dn"><td>ПН<td>ВТ<td>СР<td>ЧТ<td>ПТ<td>СБ<td>ВС
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+<!--                сам календарь конец-->
+
+<!--                информационный блок - начало-->
+                <div class="instagram-stories__calendarMain_2_2">
+                    <div class="Himiya-instagram-stories__calendarMain_2_2_1">
+                        <img src="img/thnachokHimiya.png" class="thnachokHimiya-stories__vector1">
+                        <div class="instagram-stories__calendarMain_2_2_1">
+                            химиотерапия
+                        </div>
+                    </div>
+                    <div class="DenSdachiAnalithov-instagram-stories__calendarMain_2_2_2">
+                        <img src="img/denSdachiAnalithov.png" class="denSdachiAnalithov-stories__vector1">
+                        <div class="instagram-stories__calendarMain_2_2_2">
+                            день сдачи анализов
+                        </div>
+                    </div>
+                    <div class="OperaciyaVipolnyaetsya-instagram-stories__calendarMain_2_2_3">
+                        <img src="img/operaciyaVipolnyaetsya.png" class="operaciyaVipolnyaetsya-stories__vector1">
+                        <div class="instagram-stories__calendarMain_2_2_3">
+                            операция выполняется
+                        </div>
+                    </div>
+                    <div class="PobochnieEffecti-instagram-stories__calendarMain_2_2_4">
+                        <img src="img/pobochnieEffecti.png" class="pobochnieEffecti-stories__vector1">
+                        <div class="instagram-stories__calendarMain_2_2_4">
+                            побочные эффекты
+                        </div>
+                    </div>
+                    <div class="VibrannayaData-instagram-stories__calendarMain_2_2_5">
+                        <img src="img/vibrannayaData.png" class="vibrannayaData-stories__vector1">
+                        <div class="instagram-stories__calendarMain_2_2_5">
+                            выбранная дата
+                        </div>
+                    </div>
+                    <div class="Premedicaciya-instagram-stories__calendarMain_2_2_6">
+                        <img src="img/premedicaciya.png" class="premedicaciya-stories__vector1">
+                        <div class="instagram-stories__calendarMain_2_2_6">
+                            премедикация
+                        </div>
+                    </div>
+                </div>
+<!--                информационный блок - конец-->
+            </div>
+        </div>
+        <!-- Модальное окно - состояние - Календарь - конец -->
+
+        <!-- Модальное окно - состояние - Побочные эффекты - начало -->
+        <div id="calendar-id__modal2" class="calendar-class__pobochka">
+            <!-- Модальное содержание -->
+            <div class="calendar-class-content__pobochka">
+                <span class="close-calendar__pobochka"><img src="img/backP.png" class="backP-instagram-stories__vector1_1"></span>
+                <!--                побочные эффекты начало-->
+                <ul class="ul-pobochka">
+                    <li class="li-pobochka1"><div class="text-calendar__pobochka">Побочные эффекты</div></li>
+                    <li class="li-pobochka2"><i class="fa fa-plus fa-2x fa-plus__user" aria-hidden="true"></i></li>
+                    <li class="li-pobochka3"><i class="fa fa-calendar fa-2x fa-calendar__user" aria-hidden="true"></i></li>
+                </ul>
+
+<!--                сама рамка-->
+                <img src="img/samSpravochnik.png" class="samSpravochnik-instagram-stories__vector1" id="sam-spravochnik">
+
+                <div class="text-calendar__toshnota">Тошнота</div>
+                <img src="img/delimeterr.png" class="delimeterr-instagram-stories__vector2" id="delimeterr1">
+                <div class="text-calendar__rv">Рвота</div>
+                <img src="img/delimeterr.png" class="delimeterr-instagram-stories__vector3" id="delimeterr2">
+                <img src="img/konsult.png" class="konsult-instagram-stories__vector4" id="delimeterr3">
+
+
+                <!--                побочные эффекты конец-->
+            </div>
+        </div>
+        <!-- Модальное окно - состояние - Побочные эффекты - конец -->
+
+        <!-- Модальное окно - состояние - Помощник - начало -->
+        <div id="calendar-id__modal3" class="calendar-class__pomoschnik">
+            <!-- Модальное содержание -->
+            <div class="calendar-class-content__pomoschnik">
+                <span class="close-calendar__pomoschnik"><img src="img/closeee.png" class="pomoschnik-instagram-stories__vector1_1_1"></span>
+
+<!--                иконки чата-->
+                <img src="img/backPomoschnik.png" class="backPomoschnik-instagram-stories__vector1">
+                <img src="img/iconChatChat.png" class="iconChatChat-instagram-stories__vector2">
+                <img src="img/tvoiPomoschnik.png" class="tvoiPomoschnik-instagram-stories__vector3">
+                <div class="privet-pomoschnic">Привет,я твой помощник</div>
+                <img src="img/privetChto.png" class="privetChto-instagram-stories__vector4">
+                <img src="img/circlePrivetChto.png" class="circlePrivetChto-instagram-stories__vector5">
+                <div class="privet-chto">Привет,что ты умеешь</div>
+                <img src="img/delim.png" class="delim-instagram-stories__vector6">
+                <img src="img/smilee1.png" class="smilee1-instagram-stories__vector7">
+                <img src="img/smilee2.png" class="smilee2-instagram-stories__vector8">
+                <img src="img/vvediteSoobschenie.png" class="vvediteSoobschenie-instagram-stories__vector9">
+                <img src="img/otpravit.png" class="otpravit-instagram-stories__vector10">
+                <img src="img/vvediteSoobschenie2.png" class="vvediteSoobschenie2-instagram-stories__vector11">
+            </div>
+        </div>
+        <!-- Модальное окно - состояние - Помощник - конец -->
+
+        <!-- Модальное окно - состояние - Карта препаратов - начало -->
+        <div id="calendar-id__modal4" class="calendar-class__kartaPreparatov">
+            <!-- Модальное содержание -->
+            <div class="calendar-class-content__kartaPreparatov">
+                <span class="close-calendar__kartaPreparatov"><img src="img/backP.png" class="kartaPreparatov-instagram-stories__vector1_1"></span>
+                <div class="text-calendar__kartaPreparatov">Карта препаратов</div>
+                <img src="img/vvediteImyaPreparata.png" class="vvediteImyaPreparata-instagram-stories__vector1">
+                <img src="img/vvediteImyaPreparataText.png" class="vvediteImyaPreparataText-instagram-stories__vector2">
+                <img src="img/naitiButton.png" class="naitiButton-instagram-stories__vector3">
+                <img src="img/nadpisNayti.png" class="nadpisNayti-instagram-stories__vector4">
+                <img src="img/find.png" class="find-instagram-stories__vector5">
+                <img src="img/kartaPreparatovRamka.png" class="kartaPreparatovRamka-instagram-stories__vector6">
+                <img src="img/delimeterr.png" class="delimeterr-instagram-stories__vector3__1" id="delimeterr11">
+                <img src="img/delimeterr.png" class="delimeterr-instagram-stories__vector3__2" id="delimeterr12">
+                <img src="img/delimeterr.png" class="delimeterr-instagram-stories__vector3__3" id="delimeterr13">
+                <img src="img/vagnoImg.png" class="vagnoImg-instagram-stories__vector3__4" id="delimeterr14">
+                <img src="img/vaggno.png" class="vaggno-instagram-stories__vector3__5" id="delimeterr15">
+                <img src="img/vertDelimeter.png" class="vertDelimeter-instagram-stories__vector3__6" id="delimeterr16">
+                <img src="img/NathvanieP.png" class="NathvanieP-instagram-stories__vector3__7" id="delimeterr17">
+                <img src="img/OpisanieTable.png" class="OpisanieTable-instagram-stories__vector3__8" id="delimeterr18">
+                <img src="img/LekarstvoTable.png" class="LekarstvoTable-instagram-stories__vector3__9" id="delimeterr19">
+                <img src="img/NathnachTable.png" class="NathnachTable-instagram-stories__vector3__10" id="delimeterr20">
+                <img src="img/DozirovkaTable.png" class="DozirovkaTable-instagram-stories__vector3__11" id="delimeterr21">
+                <img src="img/DvadcatMG.png" class="DvadcatMG-instagram-stories__vector3__12" id="delimeterr22">
+            </div>
+        </div>
+        <!-- Модальное окно - состояние - Карта препаратов - конец -->
+
+
+        <div class="instagram-stories__header5_55 ">
+            <div class="instagram-stories__header1_1">
+                <img src="img/VectorLong.png" class="VectorLong-stories__vector1">
+            </div>
+            <div class="instagram-stories__header555__container_1">
+                <img src="img/domoi.png" class="domoi-instagram-stories__vector111">
+                <img src="img/glavnaya.png" class="glavnaya-instagram-stories__vector111">
+            </div>
+            <div class="instagram-stories__header555__container_2">
+                <img src="img/novosti.png" class="novosti-instagram-stories__vector111">
+                <img src="img/novostiNadpis.png" class="novostiNadpis-instagram-stories__vector111">
+            </div>
+            <div class="instagram-stories__header555__container_3">
+                <img src="img/chat.png" class="chat-instagram-stories__vector111">
+                <img src="img/chatNadpis.png" class="chatNadpis-instagram-stories__vector111">
+            </div>
+<!--            модальное окно - вызов-->
+            <div id="myBtn" class="instagram-stories__header555__container_4">
+                    <img src="img/menu.png" class="menu-instagram-stories__vector111">
+                    <img src="img/menuNadpis.png" class="menuNadpis-instagram-stories__vector111">
+            </div>
+
+<!--            тут работа с кнопками открытия новостей и чата-->
+        </div>
+
+        <!-- Модальное окно -->
+        <div id="myModal" class="modal">
+            <!-- Модальное содержание -->
+            <div class="modal-content">
+                <div class="mod-thagolovok"></div>
+                <span class="close"><img src="img/closeee.png" class="closeee-instagram-stories__vector1"></span>
+                <div class="api-t1__telephone">тел: </div>
+                <br>
+                <div class="api-t2__profile">профиль: </div>
+                <br>
+                <div class="api-t3__photo">
+                    <img src="img/profile.png" class="profile-instagram-stories__vector1">
+                </div>
+                <div class="line-menu1">
+                    <img src="img/lineMenu1.png" class="lineMenu1-instagram-stories__vector1">
+                </div>
+
+
+                <ul>
+                    <li class="menu-item1">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/calendarMenu.png" class="calendarMenu-instagram-stories__vector2">
+                    </li>
+                    <li class="menu-item2">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/pobochnieEffectiMenu.png" class="pobochnieEffectiMenu-instagram-stories__vector2">
+                    </li>
+                    <li class="menu-item3">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/kartaPreparatov2.png" class="kartaPreparatov2-instagram-stories__vector3">
+                    </li>
+                    <li class="menu-item4">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/pomochnik1.png" class="pomochnik1-instagram-stories__vector4">
+                    </li>
+                    <li class="menu-item5">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/schemaHimioterapii.png" class="schemaHimioterapii-instagram-stories__vector5">
+                    </li>
+                    <li class="menu-item6">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/proitiOpros.png" class="proitiOpros-instagram-stories__vector6">
+                    </li>
+                    <li class="menu-item7">
+<!--                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">-->
+                        <img src="img/esliUvas.png" class="esliUvas-instagram-stories__vector7">
+                    </li>
+                    <li class="menu-item8">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/thema11.png" class="thema11-instagram-stories__vector8">
+                        <img src="img/checker1.png" class="thema111-instagram-stories__vector8_2">
+                        <img src="img/circleMenu.png" class="thema111-instagram-stories__vector8_1">
+                    </li>
+                    <li class="menu-item9">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/animation1.png" class="animation1-instagram-stories__vector9">
+                        <img src="img/checker1.png" class="thema111-instagram-stories__vector9_2">
+                        <img src="img/circleMenu.png" class="thema111-instagram-stories__vector9_1">
+                    </li>
+                    <li class="menu-item10">
+                        <img src="img/iconSettings.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/settings1.png" class="settings1-instagram-stories__vector10">
+                    </li>
+                </ul>
+                <div class="line-menu2">
+                    <img src="img/lineMenu1.png" class="lineMenu1-instagram-stories__vector2">
+                </div>
+                <ul>
+                    <li class="menu-item11">
+<!--                        <img src="img/iconSettings.png" class="circleMenu-instagram-stories__vector1">-->
+                        <img src="img/version1.png" class="version1-instagram-stories__vector11">
+                    </li>
+                </ul>
+            </div>
+        </div>
+<!--        <div class="slider-dots ">-->
+<!--            <span class="slider-dots_item" onclick="currentSlide(1)"></span>-->
+<!--            <span class="slider-dots_item" onclick="currentSlide(2)"></span>-->
+<!--            <span class="slider-dots_item" onclick="currentSlide(3)"></span>-->
+<!--        </div>-->
+    </div>
+
+
+<!--    Календарь-->
+    <div class="item" id="calendar-ui">
+
+        <div class="instagram-stories__header2">
+            <table>
+                <colgroup></colgroup>
+                <tr>
+                    <td><a class="prev" onclick="minusSlide()"><img src="img/obnovit.png" class="obnovit-instagram-stories__vector11"></td>
+                    <td><img src="img/OncoAssist.png" class="oncoassist-instagram-stories__vector22"></td>
+                    <td><img src="img/find.png" class="find-instagram-stories__vector33_33"></td>
+                </tr>
+            </table>
+            <div class="instagram-stories__header1">
+                <img src="img/VectorLong.png" class="VectorLong-stories__vector1">
+            </div>
+        </div>
+
+
+        <!--        блок который дорабтки заказчиком-->
+        <div class="instagram-stories__calendarMain2">
+<!--            блок доработки календаря-->
+<!--            <div class="calander_wrapper">-->
+<!--                <div class="header">-->
+<!--                    <button class="left">-->
+<!--                        <i class="fa fa-angle-left"></i>-->
+<!--                    </button>-->
+<!--                    <span class="month_name">September</span>-->
+<!--                    <button class="right">-->
+<!--                        <i class="fa fa-angle-right"></i>-->
+<!--                    </button>-->
+<!--                </div>-->
+
+<!--                <div class="body">-->
+<!--                    <span class="heilighter"></span>-->
+<!--                    <table>-->
+<!--                        <tr>-->
+<!--                            <th>Mon</th>-->
+<!--                            <th>Tue</th>-->
+<!--                            <th>Wed</th>-->
+<!--                            <th>Thu</th>-->
+<!--                            <th>Fri</th>-->
+<!--                            <th>Sat</th>-->
+<!--                            <th>Sun</th>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td>29</td>-->
+<!--                            <td>30</td>-->
+<!--                            <td>31</td>-->
+<!--                            <td>1</td>-->
+<!--                            <td>2</td>-->
+<!--                            <td>3</td>-->
+<!--                            <td>4</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td>5</td>-->
+<!--                            <td class="active">6</td>-->
+<!--                            <td>7</td>-->
+<!--                            <td>8</td>-->
+<!--                            <td>9</td>-->
+<!--                            <td class="active">10</td>-->
+<!--                            <td>11</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td>12</td>-->
+<!--                            <td>13</td>-->
+<!--                            <td>14</td>-->
+<!--                            <td>15</td>-->
+<!--                            <td>16</td>-->
+<!--                            <td>17</td>-->
+<!--                            <td>18</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td>19</td>-->
+<!--                            <td>20</td>-->
+<!--                            <td>21</td>-->
+<!--                            <td>22</td>-->
+<!--                            <td>23</td>-->
+<!--                            <td>24</td>-->
+<!--                            <td>25</td>-->
+<!--                        </tr>-->
+<!--                    </table>-->
+<!--                </div>-->
+<!--            </div>-->
+
+            <div class="instagram-stories__calendarMain_2_1">
+<!--                форма даты календаря-->
+                <div class="instagram-stories__calendarMain_2_1_1">
+                    <img src="img/dataCalendar.png" class="dataCalendar-stories__vector1">
+                    <img src="img/borderr.png" class="borderr-stories__vector2">
+                </div>
+                <br>
+<!--                календарь-->
+                <div class="instagram-stories__calendarMain_2_1_2">
+<!--                    <img src="img/delimeter.png" class="delimeter-stories__vector3">-->
+                    <div class="days-of-week-container">
+                        <div class="d-c d-c__1">ПН</div>
+                        <div class="d-c d-c__2">ВТ</div>
+                        <div class="d-c d-c__3">СР</div>
+                        <div class="d-c d-c__4">ЧТ</div>
+                        <div class="d-c d-c__5">ПТ</div>
+                        <div class="d-c d-c__6">СБ</div>
+                        <div class="d-c d-c__7">ВС</div>
+                    </div>
+                    <br><br>
+                    <div class="calendar-container">
+                        <div> <span class="c-c c-c__1">1</span></div>
+                        <div class="c-c c-c__2">2</div>
+                        <div class="c-c c-c__3">3</div>
+                        <div class="c-c c-c__4">4</div>
+                        <div class="c-c c-c__5">5</div>
+                        <div class="c-c c-c__6">6</div>
+                        <div class="c-c c-c__7">7</div>
+                        <div class="c-c c-c__8">8</div>
+                        <div class="c-c c-c__9">9</div>
+                        <div class="c-c c-c__10">10</div>
+                        <div class="c-c c-c__11">11</div>
+                        <div class="c-c c-c__12">12</div>
+                        <div class="c-c c-c__13">13</div>
+                        <div class="c-c c-c__14">14</div>
+                        <div class="c-c c-c__15">15</div>
+                        <div class="c-c c-c__16">16</div>
+                        <div class="c-c c-c__17">17</div>
+                        <div class="c-c c-c__18">18</div>
+                        <div class="c-c c-c__19">19</div>
+                        <div class="c-c c-c__20">20</div>
+                        <div class="c-c c-c__21">21</div>
+                        <div class="c-c c-c__22">22</div>
+                        <div class="c-c c-c__23">23</div>
+                        <div class="c-c c-c__24">24</div>
+                        <div class="c-c c-c__25">25</div>
+                        <div class="c-c c-c__26">26</div>
+                        <div class="c-c c-c__27">27</div>
+                        <div class="c-c c-c__28">28</div>
+                        <div class="c-c c-c__29">29</div>
+                        <div class="c-c c-c__30">30</div>
+                        <div class="c-c c-c__31">31</div>
+                    </div>
+
+<!--                    <ul id="day">-->
+<!--                        <li class="day1">пн-->
+
+<!--                        </li>-->
+<!--                        <img src="img/delimeter.png" class="delimeter-stories__vector3">-->
+<!--                        <li class="day2">вт-->
+
+<!--                        </li>-->
+<!--                        <img src="img/delimeter.png" class="delimeter-stories__vector3">-->
+<!--                        <li class="day3">ср-->
+
+<!--                        </li>-->
+<!--                        <img src="img/delimeter.png" class="delimeter-stories__vector3">-->
+<!--                        <li class="day4">чт-->
+
+<!--                        </li>-->
+<!--                        <img src="img/delimeter.png" class="delimeter-stories__vector3">-->
+<!--                        <li class="day5">пт-->
+
+<!--                        </li>-->
+<!--                        <img src="img/delimeter.png" class="delimeter-stories__vector3">-->
+<!--                        <li class="day6">сб-->
+
+<!--                        </li>-->
+<!--                        <img src="img/delimeter.png" class="delimeter-stories__vector3">-->
+<!--                        <li class="day7">вс-->
+<!--&lt;!&ndash;                            <img src="img/delimeter.png" class="delimeter-stories__vector3">&ndash;&gt;-->
+<!--                        </li>-->
+
+<!--                    </ul>-->
+
+                </div>
+            </div>
+<!--            информационный блок-->
+            <div class="instagram-stories__calendarMain_2_2">
+                <div class="Himiya-instagram-stories__calendarMain_2_2_1">
+                    <img src="img/thnachokHimiya.png" class="thnachokHimiya-stories__vector1">
+                    <div class="instagram-stories__calendarMain_2_2_1">
+                        химиотерапия
+                    </div>
+                </div>
+                <div class="DenSdachiAnalithov-instagram-stories__calendarMain_2_2_2">
+                    <img src="img/denSdachiAnalithov.png" class="denSdachiAnalithov-stories__vector1">
+                    <div class="instagram-stories__calendarMain_2_2_2">
+                        день сдачи анализов
+                    </div>
+                </div>
+                <div class="OperaciyaVipolnyaetsya-instagram-stories__calendarMain_2_2_3">
+                    <img src="img/operaciyaVipolnyaetsya.png" class="operaciyaVipolnyaetsya-stories__vector1">
+                    <div class="instagram-stories__calendarMain_2_2_3">
+                        операция выполняется
+                    </div>
+                </div>
+                <div class="PobochnieEffecti-instagram-stories__calendarMain_2_2_4">
+                    <img src="img/pobochnieEffecti.png" class="pobochnieEffecti-stories__vector1">
+                    <div class="instagram-stories__calendarMain_2_2_4">
+                        побочные эффекты
+                    </div>
+                </div>
+                <div class="VibrannayaData-instagram-stories__calendarMain_2_2_5">
+                    <img src="img/vibrannayaData.png" class="vibrannayaData-stories__vector1">
+                    <div class="instagram-stories__calendarMain_2_2_5">
+                        выбранная дата
+                    </div>
+                </div>
+                <div class="Premedicaciya-instagram-stories__calendarMain_2_2_6">
+                    <img src="img/premedicaciya.png" class="premedicaciya-stories__vector1">
+                    <div class="instagram-stories__calendarMain_2_2_6">
+                        премедикация
+                    </div>
+                </div>
+
+            </div>
+        </div>
+<!--        меню главного окна приложения-->
+        <div class="instagram-stories__header5_55 ">
+            <div class="instagram-stories__header1_1">
+                <img src="img/VectorLong.png" class="VectorLong-stories__vector1">
+            </div>
+            <div class="instagram-stories__header555__container_1">
+                <img src="img/domoi.png" class="domoi-instagram-stories__vector111">
+                <img src="img/glavnaya.png" class="glavnaya-instagram-stories__vector111">
+            </div>
+            <div class="instagram-stories__header555__container_2">
+                <img src="img/novosti.png" class="novosti-instagram-stories__vector111">
+                <img src="img/novostiNadpis.png" class="novostiNadpis-instagram-stories__vector111">
+            </div>
+            <div class="instagram-stories__header555__container_3">
+                <img src="img/chat.png" class="chat-instagram-stories__vector111">
+                <img src="img/chatNadpis.png" class="chatNadpis-instagram-stories__vector111">
+            </div>
+
+            <div id="myBtn" class="instagram-stories__header555__container_4">
+                <img src="img/menu.png" class="menu-instagram-stories__vector111">
+                <img src="img/menuNadpis.png" class="menuNadpis-instagram-stories__vector111">
+            </div>
+
+            <!--            тут работа с кнопками открытия новостей и чата-->
+
+        </div>
+
+        <!-- Модальное окно -->
+        <div id="myModal" class="modal">
+            <!-- Модальное содержание -->
+            <div class="modal-content">
+                <div class="mod-thagolovok"></div>
+                <span class="close"><img src="img/closeee.png" class="closeee-instagram-stories__vector1"></span>
+                <div class="api-t1__telephone">тел: </div>
+                <br>
+                <div class="api-t2__profile">профиль: </div>
+                <br>
+                <div class="api-t3__photo">
+                    <img src="img/profile.png" class="profile-instagram-stories__vector1">
+                </div>
+                <div class="line-menu1">
+                    <img src="img/lineMenu1.png" class="lineMenu1-instagram-stories__vector1">
+                </div>
+
+
+                <ul>
+                    <li class="menu-item1">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/calendarMenu.png" class="calendarMenu-instagram-stories__vector2">
+                    </li>
+                    <li class="menu-item2">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/pobochnieEffectiMenu.png" class="pobochnieEffectiMenu-instagram-stories__vector2">
+                    </li>
+                    <li class="menu-item3">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/kartaPreparatov2.png" class="kartaPreparatov2-instagram-stories__vector3">
+                    </li>
+                    <li class="menu-item4">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/pomochnik1.png" class="pomochnik1-instagram-stories__vector4">
+                    </li>
+                    <li class="menu-item5">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/schemaHimioterapii.png" class="schemaHimioterapii-instagram-stories__vector5">
+                    </li>
+                    <li class="menu-item6">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/proitiOpros.png" class="proitiOpros-instagram-stories__vector6">
+                    </li>
+                    <li class="menu-item7">
+                        <!--                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">-->
+                        <img src="img/esliUvas.png" class="esliUvas-instagram-stories__vector7">
+                    </li>
+                    <li class="menu-item8">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/thema11.png" class="thema11-instagram-stories__vector8">
+                        <img src="img/checker1.png" class="thema111-instagram-stories__vector8_2">
+                        <img src="img/circleMenu.png" class="thema111-instagram-stories__vector8_1">
+                    </li>
+                    <li class="menu-item9">
+                        <img src="img/circleMenu.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/animation1.png" class="animation1-instagram-stories__vector9">
+                        <img src="img/checker1.png" class="thema111-instagram-stories__vector9_2">
+                        <img src="img/circleMenu.png" class="thema111-instagram-stories__vector9_1">
+                    </li>
+                    <li class="menu-item10">
+                        <img src="img/iconSettings.png" class="circleMenu-instagram-stories__vector1">
+                        <img src="img/settings1.png" class="settings1-instagram-stories__vector10">
+                    </li>
+                </ul>
+                <div class="line-menu2">
+                    <img src="img/lineMenu1.png" class="lineMenu1-instagram-stories__vector2">
+                </div>
+                <ul>
+                    <li class="menu-item11">
+                        <!--                        <img src="img/iconSettings.png" class="circleMenu-instagram-stories__vector1">-->
+                        <img src="img/version1.png" class="version1-instagram-stories__vector11">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
